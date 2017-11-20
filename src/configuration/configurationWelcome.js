@@ -6,21 +6,29 @@ import annuaire from '../pages/Annuaire'
 
 export default {
         buttons : [
-                      { 
-                        'page' : safe,
-                        'label' : 'SAFE' 
-                      }, 
                       {
                         'page' : annuaire,
-                        'label' : 'ANNUAIRE'
+                        'label' : 'Numeros Utiles'
                       },
                       {
-                         'page' : messagerie,
-                        'label' : 'MESSAGERIE' 
+                        'page' : messagerie,
+                        'label' : 'messagerie alert' 
+                      }, 
+                      { 
+                        'page' : safe,
+                        'label' : 'Solution "SAFE"' 
                       }, 
                       {
                         'page' : gopca,
-                        'label' : 'GO PCA'
+                        'label' : 'GoPCA'
+                      },
+                      {
+                        'page' : gopca,
+                        'label' : 'Kit de crise'
+                      },
+                      {
+                        'page' : gopca,
+                        'label' : 'Infos diverses'
                       }  
                     ]
         }
