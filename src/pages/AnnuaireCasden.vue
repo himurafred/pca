@@ -17,12 +17,13 @@
 </template>
 
 <script>
-  import customToolbar from '../common/components/CustomToolbar';
+  import customToolbar from '../common/components/CustomToolbar'
   import dataCasden from '../configuration/dataCasden'
 
   export default {
 
     data() {
+      
       return {
                annuaire : dataCasden.annuaire
         }

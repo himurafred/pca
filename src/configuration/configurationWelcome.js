@@ -12,7 +12,7 @@ export default {
                       },
                       {
                         'page' : messagerie,
-                        'label' : 'messagerie alert' 
+                        'label' : 'Messagerie alert' 
                       }, 
                       { 
                         'page' : safe,
